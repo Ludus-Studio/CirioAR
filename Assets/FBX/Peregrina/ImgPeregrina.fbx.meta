@@ -1,0 +1,1125 @@
+fileFormatVersion: 2
+guid: b55696e7c5ee2504a95e93abc915d217
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -5803335237418902123
+    second: River01|BotAction
+  - first:
+      74: -3264559582032301710
+    second: River01|CameraAction.002
+  - first:
+      74: 7166077656989193883
+    second: River01|CameraAction.003
+  - first:
+      74: -4794829031656003055
+    second: River01|CameraAction.004
+  - first:
+      74: 72728946962617468
+    second: River01|CameraAction.005
+  - first:
+      74: 6420611525042807347
+    second: River01|CameraAction.006
+  - first:
+      74: -6745513009305861662
+    second: River01|Empty.001Action
+  - first:
+      74: -5927196885417281067
+    second: River01|FrontAction
+  - first:
+      74: -1639819043170379856
+    second: River01|Kamikase.001Action
+  - first:
+      74: -6854714893438811141
+    second: River01|River01Action
+  - first:
+      74: -3872679736656359760
+    second: River01|River01Action.002
+  - first:
+      74: -8197276257157429905
+    second: River01|Statue.001Action
+  - first:
+      74: -7124315566860224017
+    second: River01|TopAction
+  - first:
+      74: 5590515455283023186
+    second: River01|TowersAction
+  - first:
+      74: 3305402774469357769
+    second: Ribeirinho|Armature.001Action
+  - first:
+      74: -2628677527488832779
+    second: Ribeirinho|BotAction
+  - first:
+      74: 8230281355330305583
+    second: Ribeirinho|CameraAction.002
+  - first:
+      74: -1160374719035409293
+    second: Ribeirinho|CameraAction.003
+  - first:
+      74: -8054136402586194213
+    second: Ribeirinho|CameraAction.004
+  - first:
+      74: -354117770853450094
+    second: Ribeirinho|CameraAction.005
+  - first:
+      74: 7907644401775528512
+    second: Ribeirinho|CameraAction.006
+  - first:
+      74: -1073645349068460407
+    second: Ribeirinho|Empty.001Action
+  - first:
+      74: 6275945940577927764
+    second: Ribeirinho|FrontAction
+  - first:
+      74: 8097850729543578186
+    second: Ribeirinho|Kamikase.001Action
+  - first:
+      74: 6126107290103130245
+    second: Ribeirinho|River01Action
+  - first:
+      74: 5910152210583264040
+    second: Ribeirinho|River01Action.002
+  - first:
+      74: 5044612861012395247
+    second: Ribeirinho|Statue.001Action
+  - first:
+      74: -5147020295841701071
+    second: Ribeirinho|TopAction
+  - first:
+      74: 5782381410801140496
+    second: Ribeirinho|TowersAction
+  - first:
+      74: -6687272566414263651
+    second: arvore 1|arvoreAction
+  - first:
+      74: -6902373666588644257
+    second: arvore 1|arvoreAction.001
+  - first:
+      74: -7837634384499757413
+    second: arvore 1|arvoreAction.002
+  - first:
+      74: -8493806647633485989
+    second: arvore 1|arvoreAction.003
+  - first:
+      74: -7714263116046138217
+    second: arvore 1|arvoreAction.004
+  - first:
+      74: 2883788146711442863
+    second: arvore 1|BotAction
+  - first:
+      74: -4387733652095902982
+    second: arvore 1|CameraAction.002
+  - first:
+      74: 3178480437307036128
+    second: arvore 1|CameraAction.003
+  - first:
+      74: 3626308926104214607
+    second: arvore 1|CameraAction.004
+  - first:
+      74: 750730875387262207
+    second: arvore 1|CameraAction.005
+  - first:
+      74: 3160151282162574273
+    second: arvore 1|CameraAction.006
+  - first:
+      74: -4224666402760604144
+    second: arvore 1|Empty.001Action
+  - first:
+      74: -4453850733358208978
+    second: arvore 1|FrontAction
+  - first:
+      74: -6401556590245472006
+    second: arvore 1|Kamikase.001Action
+  - first:
+      74: 8428450405499909906
+    second: arvore 1|River01Action
+  - first:
+      74: -1064929991360650655
+    second: arvore 1|River01Action.002
+  - first:
+      74: -7003653888407015635
+    second: arvore 1|Statue.001Action
+  - first:
+      74: 2425429847496778084
+    second: arvore 1|TopAction
+  - first:
+      74: 1830424914115577344
+    second: arvore 1|TowersAction
+  - first:
+      74: -2875845231522767341
+    second: arvore 2|arvoreAction
+  - first:
+      74: 1045388224663166169
+    second: arvore 2|arvoreAction.001
+  - first:
+      74: -2753256246059660920
+    second: arvore 2|arvoreAction.002
+  - first:
+      74: 1168311802513411846
+    second: arvore 2|arvoreAction.003
+  - first:
+      74: 2531572130296228183
+    second: arvore 2|arvoreAction.004
+  - first:
+      74: -6860905981306317097
+    second: arvore 2|BotAction
+  - first:
+      74: -1284551942003773884
+    second: arvore 2|CameraAction.002
+  - first:
+      74: 658483828677347745
+    second: arvore 2|CameraAction.003
+  - first:
+      74: 989436083881062215
+    second: arvore 2|CameraAction.004
+  - first:
+      74: -1198981622333303777
+    second: arvore 2|CameraAction.005
+  - first:
+      74: -7443605711190981228
+    second: arvore 2|CameraAction.006
+  - first:
+      74: -3952898605406541249
+    second: arvore 2|Empty.001Action
+  - first:
+      74: -730117253291690472
+    second: arvore 2|FrontAction
+  - first:
+      74: 1453866240065186382
+    second: arvore 2|Kamikase.001Action
+  - first:
+      74: 454311927274894298
+    second: arvore 2|River01Action
+  - first:
+      74: 4813256614664378137
+    second: arvore 2|River01Action.002
+  - first:
+      74: 492931302189489961
+    second: arvore 2|Statue.001Action
+  - first:
+      74: -489741647001433653
+    second: arvore 2|TopAction
+  - first:
+      74: 3969261155520236858
+    second: arvore 2|TowersAction
+  - first:
+      74: 2681023774702638042
+    second: arvore.3|arvoreAction
+  - first:
+      74: 5995843145255415944
+    second: arvore.3|arvoreAction.001
+  - first:
+      74: -526319117938328375
+    second: arvore.3|arvoreAction.002
+  - first:
+      74: -5629757485394589055
+    second: arvore.3|arvoreAction.003
+  - first:
+      74: 4305840560755164220
+    second: arvore.3|arvoreAction.004
+  - first:
+      74: 7303340103018102076
+    second: arvore.3|BotAction
+  - first:
+      74: 1100591790748622838
+    second: arvore.3|CameraAction.002
+  - first:
+      74: 4848507592069676976
+    second: arvore.3|CameraAction.003
+  - first:
+      74: -8373078902471126036
+    second: arvore.3|CameraAction.004
+  - first:
+      74: -4983659760819220577
+    second: arvore.3|CameraAction.005
+  - first:
+      74: -1006836514346763808
+    second: arvore.3|CameraAction.006
+  - first:
+      74: -8892809520582017341
+    second: arvore.3|Empty.001Action
+  - first:
+      74: -736577228398524897
+    second: arvore.3|FrontAction
+  - first:
+      74: -6820980541406415927
+    second: arvore.3|Kamikase.001Action
+  - first:
+      74: -8138025988222591557
+    second: arvore.3|River01Action
+  - first:
+      74: -7505234800401200452
+    second: arvore.3|River01Action.002
+  - first:
+      74: -5314305423039546971
+    second: arvore.3|Statue.001Action
+  - first:
+      74: -3444026266514375071
+    second: arvore.3|TopAction
+  - first:
+      74: -7243703108156746582
+    second: arvore.3|TowersAction
+  - first:
+      74: -4939680521449291719
+    second: arvore 4|arvoreAction
+  - first:
+      74: 507066600963368398
+    second: arvore 4|arvoreAction.001
+  - first:
+      74: 7445249401467930967
+    second: arvore 4|arvoreAction.002
+  - first:
+      74: -3024384959838727015
+    second: arvore 4|arvoreAction.003
+  - first:
+      74: -5314065371943706507
+    second: arvore 4|arvoreAction.004
+  - first:
+      74: -7837139203558927636
+    second: arvore 4|BotAction
+  - first:
+      74: -3290749931692955659
+    second: arvore 4|CameraAction.002
+  - first:
+      74: 8818479137778332226
+    second: arvore 4|CameraAction.003
+  - first:
+      74: 7999551972411636023
+    second: arvore 4|CameraAction.004
+  - first:
+      74: 8354273342037931840
+    second: arvore 4|CameraAction.005
+  - first:
+      74: -7547361853662510810
+    second: arvore 4|CameraAction.006
+  - first:
+      74: -5491469464916646467
+    second: arvore 4|Empty.001Action
+  - first:
+      74: 5486200074956840709
+    second: arvore 4|FrontAction
+  - first:
+      74: 1799666338187246038
+    second: arvore 4|Kamikase.001Action
+  - first:
+      74: 8315781323401948760
+    second: arvore 4|River01Action
+  - first:
+      74: 3136006366727425451
+    second: arvore 4|River01Action.002
+  - first:
+      74: 3303079647000132951
+    second: arvore 4|Statue.001Action
+  - first:
+      74: 7722956035106982785
+    second: arvore 4|TopAction
+  - first:
+      74: -4925171994915257192
+    second: arvore 4|TowersAction
+  - first:
+      74: -663394489319878370
+    second: River01.002|BotAction
+  - first:
+      74: 9188297812904122383
+    second: River01.002|CameraAction.002
+  - first:
+      74: -5573496331020530343
+    second: River01.002|CameraAction.003
+  - first:
+      74: -1969056548763985875
+    second: River01.002|CameraAction.004
+  - first:
+      74: 3719386079292839585
+    second: River01.002|CameraAction.005
+  - first:
+      74: 1386190158421852352
+    second: River01.002|CameraAction.006
+  - first:
+      74: -1756222679635789824
+    second: River01.002|Empty.001Action
+  - first:
+      74: 7223456440458128082
+    second: River01.002|FrontAction
+  - first:
+      74: 8803346382591739758
+    second: River01.002|Kamikase.001Action
+  - first:
+      74: -2256303166964609345
+    second: River01.002|River01Action
+  - first:
+      74: -7603979822914793294
+    second: River01.002|River01Action.002
+  - first:
+      74: -5264916056807424854
+    second: River01.002|Statue.001Action
+  - first:
+      74: 6263591648368214680
+    second: River01.002|TopAction
+  - first:
+      74: 3424477267127921698
+    second: River01.002|TowersAction
+  - first:
+      74: -4852839384866876934
+    second: arvore 4.001|arvoreAction
+  - first:
+      74: -3829299722957846488
+    second: arvore 4.001|arvoreAction.001
+  - first:
+      74: 266612182148696290
+    second: arvore 4.001|arvoreAction.002
+  - first:
+      74: -845120609900855091
+    second: arvore 4.001|arvoreAction.003
+  - first:
+      74: 4071031494941277709
+    second: arvore 4.001|arvoreAction.004
+  - first:
+      74: 2435707713369134783
+    second: arvore 4.001|BotAction
+  - first:
+      74: 4715070476758508040
+    second: arvore 4.001|CameraAction.002
+  - first:
+      74: 5882036786930057606
+    second: arvore 4.001|CameraAction.003
+  - first:
+      74: 5265440291098205691
+    second: arvore 4.001|CameraAction.004
+  - first:
+      74: 9145417489278858732
+    second: arvore 4.001|CameraAction.005
+  - first:
+      74: 635545681104448454
+    second: arvore 4.001|CameraAction.006
+  - first:
+      74: 5311503016828224735
+    second: arvore 4.001|Empty.001Action
+  - first:
+      74: 6917212595986662109
+    second: arvore 4.001|FrontAction
+  - first:
+      74: 3456849643606977364
+    second: arvore 4.001|Kamikase.001Action
+  - first:
+      74: 6308031167526032012
+    second: arvore 4.001|River01Action
+  - first:
+      74: -84773659899948732
+    second: arvore 4.001|River01Action.002
+  - first:
+      74: -3426417416778383640
+    second: arvore 4.001|Statue.001Action
+  - first:
+      74: 8500058031421281382
+    second: arvore 4.001|TopAction
+  - first:
+      74: -7885594114839921418
+    second: arvore 4.001|TowersAction
+  - first:
+      74: -3844707326620630497
+    second: Statue.001|BotAction
+  - first:
+      74: -7462372481402340389
+    second: Statue.001|CameraAction.002
+  - first:
+      74: -2323882034235877508
+    second: Statue.001|CameraAction.003
+  - first:
+      74: -8951861696598403724
+    second: Statue.001|CameraAction.004
+  - first:
+      74: 3103665124358659485
+    second: Statue.001|CameraAction.005
+  - first:
+      74: 2715050813622440624
+    second: Statue.001|CameraAction.006
+  - first:
+      74: 6425202536998816884
+    second: Statue.001|Empty.001Action
+  - first:
+      74: 2461454452152464998
+    second: Statue.001|FrontAction
+  - first:
+      74: 2540591698973880414
+    second: Statue.001|Kamikase.001Action
+  - first:
+      74: -4014084295317952386
+    second: Statue.001|River01Action
+  - first:
+      74: 1399090564688783140
+    second: Statue.001|River01Action.002
+  - first:
+      74: 7999574761656281852
+    second: Statue.001|Statue.001Action
+  - first:
+      74: 2153964248284163473
+    second: Statue.001|TopAction
+  - first:
+      74: -8895854939225357292
+    second: Statue.001|TowersAction
+  - first:
+      74: -994367904879247630
+    second: Towers|BotAction
+  - first:
+      74: 3987998007468392837
+    second: Towers|CameraAction.002
+  - first:
+      74: -7494060871883352788
+    second: Towers|CameraAction.003
+  - first:
+      74: -6462497962908505743
+    second: Towers|CameraAction.004
+  - first:
+      74: -2247293056653061799
+    second: Towers|CameraAction.005
+  - first:
+      74: 3720716595816077304
+    second: Towers|CameraAction.006
+  - first:
+      74: 6398163319008452008
+    second: Towers|Empty.001Action
+  - first:
+      74: 5379247213154368554
+    second: Towers|FrontAction
+  - first:
+      74: -3288517494565507050
+    second: Towers|Kamikase.001Action
+  - first:
+      74: 6715424967035950443
+    second: Towers|River01Action
+  - first:
+      74: 7563965768364799491
+    second: Towers|River01Action.002
+  - first:
+      74: -2304968822478070160
+    second: Towers|Statue.001Action
+  - first:
+      74: -1571421070079262572
+    second: Towers|TopAction
+  - first:
+      74: -1173613741336132100
+    second: Towers|TowersAction
+  - first:
+      74: 6944182328342201880
+    second: Top|BotAction
+  - first:
+      74: 4316408550671157201
+    second: Top|CameraAction.002
+  - first:
+      74: 8189175840117644059
+    second: Top|CameraAction.003
+  - first:
+      74: 4289267239980430021
+    second: Top|CameraAction.004
+  - first:
+      74: -7851214574097847033
+    second: Top|CameraAction.005
+  - first:
+      74: -2979418702040649574
+    second: Top|CameraAction.006
+  - first:
+      74: -2793742718573253290
+    second: Top|Empty.001Action
+  - first:
+      74: -2059026315306530079
+    second: Top|FrontAction
+  - first:
+      74: 5452878791537967323
+    second: Top|Kamikase.001Action
+  - first:
+      74: -3225952992561916493
+    second: Top|River01Action
+  - first:
+      74: -8717592539387531073
+    second: Top|River01Action.002
+  - first:
+      74: -2525746006772796677
+    second: Top|Statue.001Action
+  - first:
+      74: -3752280481356743547
+    second: Top|TopAction
+  - first:
+      74: -6440877300426172355
+    second: Top|TowersAction
+  - first:
+      74: 8977715709871907326
+    second: Front|BotAction
+  - first:
+      74: 2383382821901563929
+    second: Front|CameraAction.002
+  - first:
+      74: 3224308438755204209
+    second: Front|CameraAction.003
+  - first:
+      74: -2718761736152334128
+    second: Front|CameraAction.004
+  - first:
+      74: 8780144022107963132
+    second: Front|CameraAction.005
+  - first:
+      74: 8037864749157151549
+    second: Front|CameraAction.006
+  - first:
+      74: 1469072504759961997
+    second: Front|Empty.001Action
+  - first:
+      74: 4450533215898753895
+    second: Front|FrontAction
+  - first:
+      74: -1206829179390780904
+    second: Front|Kamikase.001Action
+  - first:
+      74: 6238408889945855047
+    second: Front|River01Action
+  - first:
+      74: -3039083041393122128
+    second: Front|River01Action.002
+  - first:
+      74: 4342171414219962727
+    second: Front|Statue.001Action
+  - first:
+      74: -5884707375641223945
+    second: Front|TopAction
+  - first:
+      74: 7522020413453113842
+    second: Front|TowersAction
+  - first:
+      74: 4525066446594681751
+    second: Bot|BotAction
+  - first:
+      74: -6848384383490590469
+    second: Bot|CameraAction.002
+  - first:
+      74: -5348910968881340853
+    second: Bot|CameraAction.003
+  - first:
+      74: -4344346126593402640
+    second: Bot|CameraAction.004
+  - first:
+      74: -3359996254985696334
+    second: Bot|CameraAction.005
+  - first:
+      74: 5821110243522070749
+    second: Bot|CameraAction.006
+  - first:
+      74: 6505992505004651613
+    second: Bot|Empty.001Action
+  - first:
+      74: 6713633256698034260
+    second: Bot|FrontAction
+  - first:
+      74: 5114985422642441419
+    second: Bot|Kamikase.001Action
+  - first:
+      74: 466471627665331664
+    second: Bot|River01Action
+  - first:
+      74: -7191119719880553838
+    second: Bot|River01Action.002
+  - first:
+      74: 8539917415331403202
+    second: Bot|Statue.001Action
+  - first:
+      74: -7667050118675250165
+    second: Bot|TopAction
+  - first:
+      74: -6282999459384891176
+    second: Bot|TowersAction
+  - first:
+      74: -5363758626007954228
+    second: Kamikase.001|BotAction
+  - first:
+      74: 1049765186428005787
+    second: Kamikase.001|CameraAction.002
+  - first:
+      74: -5484370667779200445
+    second: Kamikase.001|CameraAction.003
+  - first:
+      74: 4861688100150101801
+    second: Kamikase.001|CameraAction.004
+  - first:
+      74: 3736579865069108166
+    second: Kamikase.001|CameraAction.005
+  - first:
+      74: -3731287584171154219
+    second: Kamikase.001|CameraAction.006
+  - first:
+      74: 2178064740307411943
+    second: Kamikase.001|Empty.001Action
+  - first:
+      74: 3432405677037621153
+    second: Kamikase.001|FrontAction
+  - first:
+      74: -7422492480019498794
+    second: Kamikase.001|Kamikase.001Action
+  - first:
+      74: 5163014718873323184
+    second: Kamikase.001|River01Action
+  - first:
+      74: 4071477185562313266
+    second: Kamikase.001|River01Action.002
+  - first:
+      74: -4489198200941040254
+    second: Kamikase.001|Statue.001Action
+  - first:
+      74: 8972183168670505383
+    second: Kamikase.001|TopAction
+  - first:
+      74: -3560248659529921933
+    second: Kamikase.001|TowersAction
+  - first:
+      74: 6227270248993677179
+    second: Camera|BotAction
+  - first:
+      74: 5628816005536468543
+    second: Camera|CameraAction.002
+  - first:
+      74: -781826599034951800
+    second: Camera|CameraAction.003
+  - first:
+      74: 8696212250756691414
+    second: Camera|CameraAction.004
+  - first:
+      74: -8425268094474468901
+    second: Camera|CameraAction.005
+  - first:
+      74: -7992376809367793716
+    second: Camera|CameraAction.006
+  - first:
+      74: -7433328534930802023
+    second: Camera|Empty.001Action
+  - first:
+      74: -5097575432340139990
+    second: Camera|FrontAction
+  - first:
+      74: -938033758028036291
+    second: Camera|Kamikase.001Action
+  - first:
+      74: 6479201001660456283
+    second: Camera|River01Action
+  - first:
+      74: -4668884502501211818
+    second: Camera|River01Action.002
+  - first:
+      74: -8988824111910005381
+    second: Camera|Statue.001Action
+  - first:
+      74: 3444262701680387128
+    second: Camera|TopAction
+  - first:
+      74: 6436689137332646544
+    second: Camera|TowersAction
+  - first:
+      74: -7442599186934223233
+    second: Camera.001|BotAction
+  - first:
+      74: -5179509897619647923
+    second: Camera.001|CameraAction.002
+  - first:
+      74: -4197975352106204304
+    second: Camera.001|CameraAction.003
+  - first:
+      74: 3474693970149336526
+    second: Camera.001|CameraAction.004
+  - first:
+      74: -213915885506080362
+    second: Camera.001|CameraAction.005
+  - first:
+      74: -5732427812279561157
+    second: Camera.001|CameraAction.006
+  - first:
+      74: 1404119003597490317
+    second: Camera.001|Empty.001Action
+  - first:
+      74: 1015858245020651987
+    second: Camera.001|FrontAction
+  - first:
+      74: 967826207951272581
+    second: Camera.001|Kamikase.001Action
+  - first:
+      74: 4160208093477379190
+    second: Camera.001|River01Action
+  - first:
+      74: -336206570666179623
+    second: Camera.001|River01Action.002
+  - first:
+      74: -1511098049929265071
+    second: Camera.001|Statue.001Action
+  - first:
+      74: -7939885362157581118
+    second: Camera.001|TopAction
+  - first:
+      74: 2794071926629405656
+    second: Camera.001|TowersAction
+  - first:
+      74: -7289107963584221331
+    second: Camera.002|BotAction
+  - first:
+      74: 8869732857847335994
+    second: Camera.002|CameraAction.002
+  - first:
+      74: -7993755479145314031
+    second: Camera.002|CameraAction.003
+  - first:
+      74: 2655385087431105676
+    second: Camera.002|CameraAction.004
+  - first:
+      74: 566307353583713780
+    second: Camera.002|CameraAction.005
+  - first:
+      74: 4675695105844593471
+    second: Camera.002|CameraAction.006
+  - first:
+      74: -144191074103142644
+    second: Camera.002|Empty.001Action
+  - first:
+      74: -3030385353683009553
+    second: Camera.002|FrontAction
+  - first:
+      74: -6258964217817753258
+    second: Camera.002|Kamikase.001Action
+  - first:
+      74: 7662339931041334033
+    second: Camera.002|River01Action
+  - first:
+      74: -8446184288900516451
+    second: Camera.002|River01Action.002
+  - first:
+      74: -682734235188229169
+    second: Camera.002|Statue.001Action
+  - first:
+      74: -6140979899425752645
+    second: Camera.002|TopAction
+  - first:
+      74: -8590367963339045900
+    second: Camera.002|TowersAction
+  - first:
+      74: -5880205294839647072
+    second: Camera.003|BotAction
+  - first:
+      74: -7649155036676083957
+    second: Camera.003|CameraAction.002
+  - first:
+      74: -2052211282549236945
+    second: Camera.003|CameraAction.003
+  - first:
+      74: -3264231614437013895
+    second: Camera.003|CameraAction.004
+  - first:
+      74: 2511845350177082133
+    second: Camera.003|CameraAction.005
+  - first:
+      74: -94844928771477865
+    second: Camera.003|CameraAction.006
+  - first:
+      74: 550727350630950993
+    second: Camera.003|Empty.001Action
+  - first:
+      74: 5543658734975216711
+    second: Camera.003|FrontAction
+  - first:
+      74: 4040464077522081534
+    second: Camera.003|Kamikase.001Action
+  - first:
+      74: -654341043236542133
+    second: Camera.003|River01Action
+  - first:
+      74: 6799192371181766627
+    second: Camera.003|River01Action.002
+  - first:
+      74: -4322480756877898763
+    second: Camera.003|Statue.001Action
+  - first:
+      74: 5463807862959361391
+    second: Camera.003|TopAction
+  - first:
+      74: 4910302271938797031
+    second: Camera.003|TowersAction
+  - first:
+      74: 1472042389940666660
+    second: Empty.001|BotAction
+  - first:
+      74: -8840127591709435699
+    second: Empty.001|CameraAction.002
+  - first:
+      74: -7353126808059081515
+    second: Empty.001|CameraAction.003
+  - first:
+      74: -4372519053934349732
+    second: Empty.001|CameraAction.004
+  - first:
+      74: -5387254433828879339
+    second: Empty.001|CameraAction.005
+  - first:
+      74: 4432825214199693452
+    second: Empty.001|CameraAction.006
+  - first:
+      74: -6949670309919530470
+    second: Empty.001|Empty.001Action
+  - first:
+      74: 3436880683881601179
+    second: Empty.001|FrontAction
+  - first:
+      74: -9093518142685970361
+    second: Empty.001|Kamikase.001Action
+  - first:
+      74: -1175104493452381483
+    second: Empty.001|River01Action
+  - first:
+      74: -7326919794494565148
+    second: Empty.001|River01Action.002
+  - first:
+      74: -4840133686595276865
+    second: Empty.001|Statue.001Action
+  - first:
+      74: -334307930938009637
+    second: Empty.001|TopAction
+  - first:
+      74: -9002053910673560837
+    second: Empty.001|TowersAction
+  - first:
+      74: -1927651324803719986
+    second: Camera.004|BotAction
+  - first:
+      74: 6913631470716884789
+    second: Camera.004|CameraAction.002
+  - first:
+      74: -5066756475199656363
+    second: Camera.004|CameraAction.003
+  - first:
+      74: -875704444161330701
+    second: Camera.004|CameraAction.004
+  - first:
+      74: -1776473535725546062
+    second: Camera.004|CameraAction.005
+  - first:
+      74: -1281244479643729037
+    second: Camera.004|CameraAction.006
+  - first:
+      74: -5891087213119806282
+    second: Camera.004|Empty.001Action
+  - first:
+      74: 7965719367233278073
+    second: Camera.004|FrontAction
+  - first:
+      74: 9083112355059317908
+    second: Camera.004|Kamikase.001Action
+  - first:
+      74: -6946254315767424458
+    second: Camera.004|River01Action
+  - first:
+      74: -4025603185663736829
+    second: Camera.004|River01Action.002
+  - first:
+      74: -2056335626735952658
+    second: Camera.004|Statue.001Action
+  - first:
+      74: -3659915858402256961
+    second: Camera.004|TopAction
+  - first:
+      74: -8051976381688286506
+    second: Camera.004|TowersAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bells
+    second: {fileID: 2100000, guid: a9a37d310efa9f941a6554172f9cb155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Build
+    second: {fileID: 2100000, guid: ed5dd127b6c69c5448daee0e1880eba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush
+    second: {fileID: 2100000, guid: 2c21f5f9ef5dd854ba479c3419fbd8b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CardBoard
+    second: {fileID: 2100000, guid: 3df5bac61d655b943a19cc7f5b60e0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaf
+    second: {fileID: 2100000, guid: 2fe5e987e71d8264aa0b32f0c1c7969a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Buche
+    second: {fileID: 2100000, guid: 8ec6d2e78028f3647ab04998a46c67c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ManTorso
+    second: {fileID: 2100000, guid: cbe8bd1af5ea97240afc9c919f6c7163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MiritiMan
+    second: {fileID: 2100000, guid: e0e21a9e2102b254abdd1a9ba6dc8adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillars
+    second: {fileID: 2100000, guid: 3a10a2a3974077a42824645936450d32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sacada
+    second: {fileID: 2100000, guid: 676648af66a298542a7dada1cca8aea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Statue
+    second: {fileID: 2100000, guid: 4025b15d04de37847b011336ad4e126c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Statues
+    second: {fileID: 2100000, guid: 1e93d21132722e74b94059df828e9290, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StrawHat
+    second: {fileID: 2100000, guid: 09dac073bf5dfd642af2b311b030ea27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TNTGreen
+    second: {fileID: 2100000, guid: 914b062ff94bf7447bc02906d9122d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table
+    second: {fileID: 2100000, guid: 8b8723b6bc30eb642a8b32757d2a2046, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Top
+    second: {fileID: 2100000, guid: 2ca3f0cadd5a95f4f9aff189a2d4656a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TopTower
+    second: {fileID: 2100000, guid: d08b71bb6caecb04f8f0c9a7f247c6d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower
+    second: {fileID: 2100000, guid: 1a950943bbe07c14ab96bbd0466822ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunk
+    second: {fileID: 2100000, guid: 1cc096f946a8ca74495200f12adce6c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: 9a7dbb36478f2ad458c5a39932b8de85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: fb6e92f0e2860cb4980a02c130743fe1, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
