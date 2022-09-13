@@ -24,16 +24,13 @@ public class PlaceRaycastObjects : MonoBehaviour
     {
         if (Input.touchCount == 0)
             return;
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (Input.touchCount > 0 )
         {
-            if (!EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))
-            {
-                Debug.Log("Tocou na UI");
+            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId) 
+            || Input.GetTouch(0).phase == TouchPhase.Ended)
                 return;
-            }
         }
 
-        Debug.Log("Tocou fora da UI");
         if (m_RaycastManager.Raycast(Input.GetTouch(0).position, m_Hits))
         {
             PlacePrefab(m_Hits[0]);
