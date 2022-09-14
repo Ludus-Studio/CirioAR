@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 9ce2486af4e04674e9f67d1ae0317db2
   - enabled: 0
     path: Assets/Scenes/FaceTraking.unity
     guid: 48ebe86679c5dcd46bf1e9232affc12d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlaneDetection.unity
     guid: 1987fa4179ed20e46a71ef29395f6e3f
   m_configObjects:
