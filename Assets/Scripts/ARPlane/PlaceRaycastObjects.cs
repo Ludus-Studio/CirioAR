@@ -89,7 +89,7 @@ public class PlaceRaycastObjects : MonoBehaviour
         // caso já exista reposiciona objeto
         else
         {
-            prefabTransform.SetPositionAndRotation(hit.pose.position, hit.pose.rotation);
+            prefabTransform.position = hit.pose.position;
         }
     }
 
