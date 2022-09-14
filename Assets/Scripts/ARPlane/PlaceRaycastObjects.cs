@@ -86,8 +86,8 @@ public class PlaceRaycastObjects : MonoBehaviour
             var prefabAux = Instantiate(m_Prefab, hit.pose.position, hit.pose.rotation);
             prefabTransform = prefabAux.transform;
         }
-        // caso já exista reposiciona objeto
-        else
+        // caso já exista reposiciona objeto caso o usuário arrastar o dedo na tela
+        else if (Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             prefabTransform.position = hit.pose.position;
         }
