@@ -4,9 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.XR.ARFoundation;
+using NaughtyAttributes;
 
 public class TogglePlaneVisualizer : MonoBehaviour
 {
+    [SerializeField]
+    private bool defaultValue;
     [SerializeField]
     private Button button;
     [SerializeField]
@@ -23,7 +26,7 @@ public class TogglePlaneVisualizer : MonoBehaviour
         planeManager = GetComponent<ARPlaneManager>();
         button.onClick.AddListener(ToggleVisualizer);
         buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
-        SetPlaneVisualizer(false);
+        SetPlaneVisualizer(defaultValue);
     }
 
     private void ToggleVisualizer()

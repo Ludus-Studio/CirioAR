@@ -318,8 +318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -80, y: 14}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -42.35, y: 4.700012}
+  m_SizeDelta: {x: 84.70081, y: 19.96011}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &866654942
 MonoBehaviour:
@@ -492,8 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 831c2dcf4fb395542857db2863cf7683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Prefab: {fileID: 6557787794431154914, guid: 6ed794bcabec93c4b9f2aa1c9128d3be,
-    type: 3}
+  m_Prefab: {fileID: 363915577805102001, guid: 820ec1e522f93f540813da665c68c8d9, type: 3}
 --- !u!114 &983987171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,6 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b28ea3c7db65e04db4b372b67a092fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultValue: 1
   button: {fileID: 866654942}
   buttonOnText: Desligar Plano
   buttonOffText: Visualizar Plano
@@ -686,11 +686,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.1
+  m_fontSize: 9.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 5
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
