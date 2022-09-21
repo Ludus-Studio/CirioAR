@@ -3,7 +3,72 @@ guid: e010decc57632484d9507560f18bc014
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 6e7155a31317b0d4dbf7136c710e136c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: a1ec1eef3a43f27438ad4adf347cdb6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: f5a2b6514a26acb4f80d647b532ce9a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__47
+    second: {fileID: 2100000, guid: f837a510a4ab8e54686f734a8a174ac8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__48
+    second: {fileID: 2100000, guid: 43f73cb7a4e6b024397a4262d24e654e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__49
+    second: {fileID: 2100000, guid: 415cdab0051064a4ea5d98d6281e8b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__50
+    second: {fileID: 2100000, guid: feb7c579d0e5bbe49bf77b6ac2c35b6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mf_Petal
+    second: {fileID: 2100000, guid: ddb945c195395f74bbadf3035309400e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mf_Stem
+    second: {fileID: 2100000, guid: 0f0f2656dfe70e743b1b967a77385b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink_cosmos_flower
+    second: {fileID: 2100000, guid: 8d5378042bf83a447807ee718a3f9206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rosa12K_u0_v0
+    second: {fileID: 2100000, guid: 17ddf58c1a1188f4a9391d75c75d1895, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SVGMat.002
+    second: {fileID: 2100000, guid: 58f25bf1b4fa58f459687212fab4d6e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SVGMat.003
+    second: {fileID: 2100000, guid: 7e2c76c23eba409498800d5026ea75ee, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

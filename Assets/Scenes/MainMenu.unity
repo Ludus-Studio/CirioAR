@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b9560b6c47e1e39489ec7831f9e0d300,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -153,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SceneManager: {fileID: 1207096328}
-  m_SceneName: FaceTraking
+  m_SceneName: PlaneDetection
 --- !u!4 &90876590
 Transform:
   m_ObjectHideFlags: 0
