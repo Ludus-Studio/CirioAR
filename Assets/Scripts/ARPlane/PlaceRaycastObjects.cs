@@ -27,6 +27,9 @@ public class PlaceRaycastObjects : MonoBehaviour
     [SerializeField]
     private float rotateThreshHolder = 1f;
 
+    [Space, SerializeField]
+    private TogglePlaneVisualizer planeVisualizer;
+
     private void Awake()
     {
         m_RaycastManager = GetComponent<ARRaycastManager>();
@@ -91,6 +94,19 @@ public class PlaceRaycastObjects : MonoBehaviour
         {
             prefabTransform.position = hit.pose.position;
         }
+        SetPlaneVisualizer(false);
+    }
+
+    public void ClearPrefab()
+    {
+        Destroy(prefabTransform.gameObject);
+        prefabTransform = null;
+        SetPlaneVisualizer(true);
+    }
+
+    private void SetPlaneVisualizer(bool val)
+    {
+        if (planeVisualizer) planeVisualizer.SetPlaneVisualizer(val);
     }
 
     // rotaciona e escala objeto

@@ -36,7 +36,7 @@ public class TogglePlaneVisualizer : MonoBehaviour
         SetPlaneVisualizer(!visualizerEnabled);
     }
 
-    private void SetPlaneVisualizer(bool val)
+    public void SetPlaneVisualizer(bool val)
     {
         // busca todos os planos e desliga a visualização
         foreach(var plane in planeManager.trackables)
