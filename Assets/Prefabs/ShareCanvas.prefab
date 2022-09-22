@@ -117,7 +117,8 @@ MonoBehaviour:
   ui: {fileID: 6439650373215513725}
   shotAnimationTrigger: shot
   ScreenShotName: myScreenShot.png
-  ScreenShotText: "#ARC\xEDrio"
+  ScreenShotText: "Olha s\xF3 essa experincia em realidade aumentada do #C\xEDrio2022!
+    #RBATv #Dol #AmaralCosta #HospitalGuadalupe #Guam\xE1TratamentoDeRes\xEDduos"
   OnDeactiveCallback:
     m_PersistentCalls:
       m_Calls:
