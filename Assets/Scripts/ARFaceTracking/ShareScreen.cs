@@ -11,8 +11,10 @@ public class ShareScreen : MonoBehaviour
     public string shotAnimationTrigger = "shot";
 
     [Space, SerializeField]
-    private string ScreenShotName = "Image.png";
+    private string ScreenShotName = "ARCirio";
     [SerializeField]
+    private string albumName = "CirioAR";
+    [SerializeField, NaughtyAttributes.ResizableTextArea]
     private string ScreenShotText = "#ARCírio";
     private Animator uiAnimator;
 
@@ -23,55 +25,37 @@ public class ShareScreen : MonoBehaviour
     private void Awake()
     {
         uiAnimator = ui.GetComponent<Animator>();
+        NativeToolkit.OnScreenshotSaved += GetSavedData;
     }
 
-    public void PrintAndShare()
+    public void PrintAndSave()
     {
         Debug.Log("Clicou no Botão");
-        string path = Print();
-        Share(path);
-    }
-
-    private string Print()
-    {
-        string screenshotPath = Application.persistentDataPath + "/" + ScreenShotName;
-
-        if(File.Exists(screenshotPath))
-            File.Delete(screenshotPath);
-
         StartCoroutine(PrintDelay());
-        Debug.Log("Print path = " + screenshotPath);
-        return screenshotPath;
+        
     }
+
     IEnumerator PrintDelay()
     {
         OnDeactiveCallback.Invoke();
         ui.SetActive(false);
         yield return new WaitForEndOfFrame();
-        ScreenCapture.CaptureScreenshot(ScreenShotName);
+        NativeToolkit.SaveScreenshot(ScreenShotName + "_" + Random.Range(0, 10000).ToString("00000"), albumName);
         yield return new WaitForEndOfFrame();
         OnActiveCallback.Invoke();
         ui.SetActive(true);
         uiAnimator.SetTrigger(shotAnimationTrigger);
     }
 
-    private void Share(string screenShotPath)
+    public void GetSavedData(string data)
     {
-        StartCoroutine(ShareDelay(screenShotPath));
+        Debug.Log("||||||||||||||||||||DADOS SALVOS ||||||||||||||||||");
+        Debug.Log(data);
+        Debug.Log("||||||||||||||||||||||||||||||||||||||");
     }
 
-    IEnumerator ShareDelay(string screenShotPath)
+    private void OnDestroy()
     {
-        Debug.Log("entrou no share");
-        while (!File.Exists(screenShotPath))
-            yield return new WaitForEndOfFrame();
-        Debug.Log("Verificou arquivo");
-        yield return new WaitForSeconds(.5f); // espera o tempo da animação de foto
-
-        new NativeShare().AddFile(screenShotPath)
-        .SetText(ScreenShotText)
-        .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
-        .Share();
-        Debug.Log("Compartilhou");
+        NativeToolkit.OnScreenshotSaved -= GetSavedData;
     }
 }

@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.LudusStudio.Cirio2022AR
+    Android: com.RBATv.Cirio2022AR
     Standalone: com.LudusStudio.Cirio2022AR
   buildNumber:
     Standalone: 0
@@ -247,7 +247,7 @@ PlayerSettings:
   clonedFromGUID: 513da609dad384f5694c9cb4841b1830
   templatePackageId: com.unity.template.ar@2.0.1
   templateDefaultScene: 
-  useCustomMainManifest: 0
+  useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
   useCustomLauncherGradleManifest: 0
