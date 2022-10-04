@@ -19006,7 +19006,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Para celebrar o C\xEDrio de Nazar\xE9, a RBA oferece uma nova experi\xEAncia
-    em Realidade Aumentada! \n\nLeve o C\xECrio para sua casa atrav\xE9z deste app.\n"
+    em Realidade Aumentada! \n\nLeve o C\xEDrio para sua casa atrav\xE9s deste app.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d90c650a7bd6da4896ea19b71140b24, type: 2}
   m_sharedMaterial: {fileID: 4106062122949682196, guid: 3d90c650a7bd6da4896ea19b71140b24,
