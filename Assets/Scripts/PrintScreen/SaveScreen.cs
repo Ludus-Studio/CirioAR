@@ -27,6 +27,7 @@ namespace Ludus.PrintScreenCapture
        
         public bool AutoSave => autoSave;
         public string CurrentSavePath => currentSavePath;
+        public PrintScreen PrintScreen => myPrintScreen;
         public void Reset()
         {
             if(myPrintScreen) myPrintScreen.Reset();

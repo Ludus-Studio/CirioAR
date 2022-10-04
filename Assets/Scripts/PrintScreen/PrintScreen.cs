@@ -8,8 +8,9 @@ namespace Ludus.PrintScreenCapture
     public class PrintScreen : MonoBehaviour
     {
         public GameObject myUI;
-        
+
         [Space]
+        public bool autoEnableUIAfterPhoto = false;
         public Animator myPhotoAnimator;
         public string shotAnimationTrigger = "shot";
         public AudioSource printSound;
@@ -38,9 +39,7 @@ namespace Ludus.PrintScreenCapture
         }
         IEnumerator TakePrintDelay()
         {
-            // Desliga toda a UI na hora de tirar o print
-            myUI.SetActive(false);
-            if(canvasVisualization) canvasVisualization.ToggleCanvasVisualization(false);
+            InterfaceVisualization(false);
             
             // Evento antes de tirar foto
             BeforeTakePrint.Invoke();
@@ -54,16 +53,22 @@ namespace Ludus.PrintScreenCapture
             yield return new WaitForEndOfFrame();
             
             // Animação de foto
-            if (myPhotoAnimator) myPhotoAnimator.SetTrigger(shotAnimationTrigger);
             if(printSound) printSound.Play();
+            if (myPhotoAnimator) myPhotoAnimator.SetTrigger(shotAnimationTrigger);
             yield return new WaitForSeconds(.5f); // espera o tempo da animação de foto
 
-            // Ativa novamente a interface
-            myUI.SetActive(true);
-            if (canvasVisualization) canvasVisualization.ToggleCanvasVisualization(true);
-            
+            // Ativa novamente a interface de configurada para automático
+            if(autoEnableUIAfterPhoto) InterfaceVisualization(true);
+
             // Evento depois de tirar foto
             OnPrintTaken.Invoke(currentTexTaken);
+        }
+
+        // Desliga ou liga toda a UI
+        public void InterfaceVisualization(bool val)
+        {
+            myUI.SetActive(val);
+            if (canvasVisualization) canvasVisualization.ToggleCanvasVisualization(val);
         }
     }
 }

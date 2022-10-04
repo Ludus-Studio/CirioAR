@@ -10,25 +10,26 @@ namespace Ludus.PrintScreenCapture
         public SaveScreen myPrintScreenSave;
         
         [Space]
-        public GameObject fotoImageGO;
+        public GameObject fotoSceneGO;
 
+        [SerializeField]
         private Image myFotoImage;
         private void Start()
         {
-            myFotoImage = fotoImageGO.GetComponent<Image>();
-            fotoImageGO.SetActive(false);
+            fotoSceneGO.SetActive(false);
         }
 
         public void EnterVisualization(Texture2D imgTex)
         {
             myFotoImage.material.mainTexture = imgTex;
-            fotoImageGO.SetActive(true);
+            fotoSceneGO.SetActive(true);
         }
 
         public void ExitVisualization()
         {
-            fotoImageGO.SetActive(false);
+            fotoSceneGO.SetActive(false);
             myFotoImage.material.mainTexture = null;
+            myPrintScreenSave.PrintScreen.InterfaceVisualization(true);
             myPrintScreenSave.Reset();
         }
     }
