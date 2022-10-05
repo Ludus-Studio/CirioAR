@@ -3,7 +3,27 @@ guid: d89ce8caa1ccb54458413c5199c0fce6
 ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__49
+    second: {fileID: 2100000, guid: f33dc3111d4825644b59f91158ca43f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__50
+    second: {fileID: 2100000, guid: e5fc4180b40a67f40b9e600e9f4e6cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mf_Petal
+    second: {fileID: 2100000, guid: 35067041ed30dbf4bbc0befb986701e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink_cosmos_flower
+    second: {fileID: 2100000, guid: 07aed849adf015a4da38aa854f98328b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

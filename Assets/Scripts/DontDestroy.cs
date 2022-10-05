@@ -38,7 +38,7 @@ public class DontDestroy : MonoBehaviour
 
         }
 
-        textMesh.text = texts[prefabID];
+        if(prefabID < texts.Length)textMesh.text = texts[prefabID];
         prefabs[prefabID].SetActive(true);
     }
 }
