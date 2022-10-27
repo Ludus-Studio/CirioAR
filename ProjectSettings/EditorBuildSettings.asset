@@ -5,18 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 9ebf752fe0f292b4fa63e223ebd88429
   - enabled: 0
     path: Assets/Scenes/MainScene.unity
     guid: 9ce2486af4e04674e9f67d1ae0317db2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FaceTraking.unity
     guid: 48ebe86679c5dcd46bf1e9232affc12d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlaneDetection.unity
     guid: 1987fa4179ed20e46a71ef29395f6e3f
+  - enabled: 0
+    path: Assets/Scenes/ARInteraction/ARInteractionDEMO.unity
+    guid: 789decbcd6ffc2c469781a5023d8ebfa
+  - enabled: 0
+    path: Assets/Scenes/ARInteraction/ARInteractionDEMO rotate 1 finger.unity
+    guid: ad440bd6ec22e2b478daf1c699745b0b
+  - enabled: 0
+    path: Assets/Scenes/ARInteraction/ARInteractionDEMO zoom 1 finger.unity
+    guid: cd06af1029d9a2642abacaf6c8462ebd
+  - enabled: 1
+    path: Assets/Scenes/ARInteraction/ARInteractionDEMO Sem Place.unity
+    guid: ff0b6c69d174816489066e4b6052cf85
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
